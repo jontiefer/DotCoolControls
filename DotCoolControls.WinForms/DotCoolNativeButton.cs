@@ -44,7 +44,7 @@ namespace DotCoolControls.WinForms
 {
     /// <summary>
     /// An expansion of the native .NET button control that displays stunning visual effects.  Visual effects, include,  but are not limited to various types
-    /// customizable gradients and text.  Both the effects and functionality of the button can be made to be state-specific, such as producing various 
+    /// of customizable gradients and text.  Both the effects and functionality of the button can be made to be state-specific, such as producing various 
     /// effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseDown and MouseOver events.
     /// </summary>
     public class DotCoolNativeButton : Button

@@ -24,9 +24,6 @@
 */
 
 
-using Tiferix.Global;
-using DotCoolControls.Tools;
-using DotCoolControls.VisualSettings;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,6 +36,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tiferix.Global;
+using DotCoolControls.Tools;
+using DotCoolControls.VisualSettings;
 
 namespace DotCoolControls
 {

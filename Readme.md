@@ -1,24 +1,30 @@
-![](http://www.dentsoftweb.com/Logos/DotCoolControlsLogo.jpg)
+![](http://www.tiferix.com/Logos/DotCoolControlsLogo.jpg)
 
 
 
 # DotCoolControls
 
-DotCoolControls is a set of .NET WinForms UI controls and libraries that extend the functionality and layout capabilities of native .NET controls.  The controls in the DotCoolControl library will allow for enhanced appearances and functionality of the native .NET controls, without losing the benefits and features of using the native control.  The DotCoolControls can offer some sophisticated GDI+ functionality in a native .NET control that you may find in even commerical products.  In this effect, you can save yourself from purchasing expensive commercial third party controls and have full access to the components and source code in your own commerical or open source projects to allow yourself to the ability to utilize advanced GDI functionality in addition to customizing the controls to your own requirements.  The DotCoolControls will be an ongoing project and more controls will be added in the future.  As of now, the only two controls in the toolkit are the DotCoolGridView and the DotCoolButton.  
+DotCoolControls is a .Net WinForms UI control library that contains a set of common UI controls that have advanced functionality and rich graphical interfaces.  The controls in the DotCoolControls WinForms toolkit includes a set of graphical Buttons, RadioButton, Checkbox, Panel, Label and a Datagridview (in the separate DotCoolGridView library).  These controls will utilize advanced GDI+ functionality such as gradients, customizable shapes and transparency.  The DotCoolControls also will allow for customizable behavior, graphical and text display for the various states of the control and mouse interactions.  Most of the controls in the DotCoolControls library derive from the base DotCoolControls class.  The abstract DotCoolControls class can also be extended by your own custom child controls to be used as a base class for your own custom controls.  In addition to the inheritable DotCoolControl class, the DotCoolControls library provides several graphical and template libraries that can be used in your own software projects for a variety of graphical applications.  The functionality provided in the DotCoolControls library is comparable with the feature set of many commercial .Net control libraries.  The DotCoolControls library is licensed under LGPL 3.0 software license and is free to use in both commercial and personal applications, but the original copyright and LGPL license must be distributed according to the LGPL license agreement.
 
 
-
-
-#DotCoolGridView
-
-DotCoolGridView is a control that is derived from the native .NET DataGridView control and adds additional GDI+ functionality, such as drawing gradient backgrounds and column headers.  As well, the control will allow for alpha blending and translucent (semi-transparent) colored column headers and cells in the grid.   
-
-NOTE: In the next version, more GDI+ featuers will be added, including more gradients, as well as the ability to add a background image to the grid, which is not currently supported out of the box with the native .NET DataGridView.    
 
 
 
 #DotCoolButton
 
-DotCoolButton is a control that is derived from the native .NET Button control and adds additional GDI+ functionality, such as drawing gradient backgrounds.  This control is very simple and lightweight and utilizes the button's background image property to draw a variety of gradients, so the control can retain the original .NET native button functionality with all the benefits of custom gradient drawing.  The control is so simple and easy to use, that once you try it you will never use the native .NET button control again.   
+The DotCoolButton is a button control that supports button of various shapes, as well as displays stunning visual effects.  Visual effects, include, but are not limited to various types customizable gradients, borders, images and text.  Both the effects and functionality of the button can be made to be state-specific, such as producing various effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseDown and MouseOver events.
 
-NOTE: In future versions, I will extend the capabilities of the DotCoolButton to allow for more customizable gradient settings to produce various types of effects, such as bubble, glass, plastic, etc and allow the user to customize the points of the gradient.  As well, I will allow the button to have custom drawn borders to allow for various shapes.  
+#DotCoolCheckBox
+The DotCoolCheckBox is a checkbox control that supports check boxes and check symbols of various shapes, as well as displays stunning visual effects.  Visual effects, include, but are not limited to various types customizable gradients, borders, images and text.  In addition, custom images can be displayed for the check symbol.  Both the effects and functionality of the checkbox can be made to be state-specific, such as producing various effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseOver events.
+
+#DotCoolRadioButton
+The DotCoolRadioButton is a radiobutton control that supports radio boxes and check symbols of various shapes, as well as displays stunning visual effects.  Visual effects, include, but are not limited to various types customizable gradients, borders, images and text.  In addition, custom images can be displayed for the check symbol.  Both the effects and functionality of the radiobutton can be made to be state-specific, such as producing various effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseOver events.        
+
+#DotCoolLabel
+The DotCoolLabel is a label control that supports button of various shapes, as well as displays stunning visual effects.  Visual effects, include, but are not limited to various types customizable gradients, borders, images and text.  Both the effects and functionality of the label can be made to be state-specific, such as producing various effects for when the label is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseDown and MouseOver events.
+
+#DotCoolPanel
+An expansion of the native .NET panel control that displays stunning gradient effects.  Both the effects and functionality of the panel can be made to be state-specific, such as producing various effects for when the panel is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseDown and MouseOver events.  The DotCoolPanel can also be used to display gradient backgrounds for DotCoolControls contained within the panel.
+
+#DotCoolNativeButton
+An expansion of the native .NET button control that displays stunning visual effects.  Visual effects, include,  but are not limited to various types of customizable gradients and text.  Both the effects and functionality of the button can be made to be state-specific, such as producing various effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseDown and MouseOver events.
