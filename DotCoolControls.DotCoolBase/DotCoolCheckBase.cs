@@ -24,6 +24,9 @@
 */
 
 
+using Tiferix.Global;
+using DotCoolControls.Tools;
+using DotCoolControls.VisualSettings;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -36,15 +39,14 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tiferix.Global;
-using DotCoolControls.Tools;
-using DotCoolControls.VisualSettings;
+using System.Runtime.InteropServices;
+using System.ComponentModel.Design.Serialization;
 
 namespace DotCoolControls
 {
     /// <summary>
     /// DotCoolCheckBase class supplys a prototype to all controls with checking type of capabilities like checkboxes and radio buttons.
-    /// </summary>
+    /// </summary>            
     public abstract class DotCoolCheckBase : DotCoolControl
     {
         #region Enumerations
@@ -846,14 +848,17 @@ namespace DotCoolControls
             }
             set
             {
-                if (value)
-                    m_CheckState = CheckState.Checked;
-                else
-                    m_CheckState = CheckState.Unchecked;
+                if (this.Checked != value)
+                {
+                    if (value)
+                        m_CheckState = CheckState.Checked;
+                    else
+                        m_CheckState = CheckState.Unchecked;
 
-                OnCheckChanged(new EventArgs());
+                    OnCheckChanged(new EventArgs());
 
-                this.Refresh();
+                    this.Refresh();
+                }//end if
             }
         }
 

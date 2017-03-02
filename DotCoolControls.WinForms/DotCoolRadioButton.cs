@@ -47,7 +47,7 @@ namespace DotCoolControls.WinForms
     /// effects.  Visual effects, include, but are not limited to various types customizable gradients, borders, images and text.  In addition, custom images 
     /// can be displayed for the check symbol.  Both the effects and functionality of the radiobutton can be made to be state-specific, such as producing
     /// various effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseOver events.        
-    /// </summary>
+    /// </summary>    
     public class DotCoolRadioButton : DotCoolCheckBase
     {
         #region Member Variables
@@ -248,7 +248,7 @@ namespace DotCoolControls.WinForms
                 base.OnGotFocus(e);
 
                 if (m_blSelectOnFocus)
-                {
+                {                    
                     this.Checked = true;
                 }//end if
 

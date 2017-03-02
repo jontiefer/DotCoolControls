@@ -38,6 +38,7 @@ using System.Windows.Forms;
 using Tiferix.Global;
 using DotCoolControls.Tools;
 using DotCoolControls.VisualSettings;
+using System.Runtime.InteropServices;
 
 namespace DotCoolControls.WinForms
 {
@@ -46,7 +47,7 @@ namespace DotCoolControls.WinForms
     /// but are not limited to various types customizable gradients, borders, images and text.  Both the effects and functionality of the button can be 
     /// made to be state-specific, such as producing various effects for when the button is in a Normal or Disabled state, as well various types 
     /// of mouse interactions, such as MouseDown and MouseOver events.
-    /// </summary>
+    /// </summary>    
     public class DotCoolButton : DotCoolControl
     {
         #region Member Variables

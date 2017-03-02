@@ -47,7 +47,7 @@ namespace DotCoolControls.WinForms
     /// but are not limited to various types customizable gradients, borders, images and text.  Both the effects and functionality of the label can be 
     /// made to be state-specific, such as producing various effects for when the label is in a Normal or Disabled state, as well various types 
     /// of mouse interactions, such as MouseDown and MouseOver events.
-    /// </summary>
+    /// </summary>    
     public class DotCoolLabel : DotCoolControl
     {
         #region Member Variables

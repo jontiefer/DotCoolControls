@@ -23,6 +23,10 @@
 *   along with DotCoolControls.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+
+using Tiferix.Global;
+using DotCoolControls.Tools;
+using DotCoolControls.VisualSettings;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -37,9 +41,6 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tiferix.Global;
-using DotCoolControls.Tools;
-using DotCoolControls.VisualSettings;
 
 namespace DotCoolControls
 {

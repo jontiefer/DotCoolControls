@@ -23,6 +23,9 @@
 *   along with DotCoolControls.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+
+using Tiferix.Global;
+using DotCoolControls.Tools;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,21 +38,22 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DotCoolControls.VisualSettings;
+using Tiferix.Global.Win32API;
 using System.Runtime.InteropServices;
 using System.Collections;
 using System.Threading;
-using Tiferix.Global;
-using Tiferix.Global.Win32API;
-using DotCoolControls.Tools;
-using DotCoolControls.VisualSettings;
+using System.ComponentModel.Design.Serialization;
+using System.IO;
 
 namespace DotCoolControls
 {
     /// <summary>
     /// The DotCoolControl class provides the prototype for all controls in the DotCoolControls library.  All Dot Cool controls will be derived from this 
     /// abstract class.
-    /// </summary>
-    public abstract class DotCoolControl : Control
+    /// </summary>  
+    [ToolboxItemFilter("DotCoolControls.DotCoolBase")]
+    public class DotCoolControl : Control
     {
         #region Enumerations 
 

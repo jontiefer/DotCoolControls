@@ -47,7 +47,7 @@ namespace DotCoolControls.WinForms
     /// effects.  Visual effects, include, but are not limited to various types customizable gradients, borders, images and text.  In addition, custom images 
     /// can be displayed for the check symbol.  Both the effects and functionality of the checkbox can be made to be state-specific, such as producing
     /// various effects for when the button is in a Normal or Disabled state, as well various types of mouse interactions, such as MouseOver events.    
-    /// </summary>
+    /// </summary>    
     public class DotCoolCheckBox : DotCoolCheckBase
     {
         #region Events
@@ -417,6 +417,9 @@ namespace DotCoolControls.WinForms
             }
             set
             {
+                if (m_CheckState == value)
+                    return;
+
                 if (value == CheckState.Checked)
                     m_CheckState = CheckState.Checked;
                 else if (value == CheckState.Indeterminate && ThreeState)
